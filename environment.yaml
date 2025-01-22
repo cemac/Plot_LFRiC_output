@@ -1,0 +1,15 @@
+name: lfric_plotting
+channels: 
+  - conda-forge
+  - esgf
+dependencies:
+  - python
+  - iris
+  - geovista
+  - vtk
+  - jupyterlab
+  - ipyvtklink
+  - jupytext=1.14.4  # changing version can cause notebook merge conflicts
+  - pre-commit
+  - iris-esmf-regrid
+  - esmpy
