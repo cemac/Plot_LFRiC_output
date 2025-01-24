@@ -3,13 +3,19 @@ channels:
   - conda-forge
   - esgf
 dependencies:
-  - python
+  - python=3.12.2
   - iris
   - geovista
-  - vtk
-  - jupyterlab
+  - vtk=9.2.6
+  - jupyterlab=4.1.5
   - ipyvtklink
   - jupytext=1.14.4  # changing version can cause notebook merge conflicts
   - pre-commit
   - iris-esmf-regrid
-  - esmpy
+  - esmpy=8.4.2
+  - trame
+  - trame-vuetify
+  - trame-vtk
+  - ipywidgets
+  - meshio
+  - notebook
