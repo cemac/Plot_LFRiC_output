@@ -11,21 +11,3 @@ cd Plot_LFRiC_output
 conda env create -f environment.yml
 conda activate lfric_plotting
 </code>
-
-### Required Python libraries
-  - python
-  - iris
-  - geovista
-  - vt
-  - jupyterlab
-  - ipyvtklink
-  - jupytext
-  - pre-commit
-  - iris-esmf-regrid
-  - esmpy
-  - trame
-  - trame-vuetify
-  - trame-vtk
-  - ipywidgets
-  - meshio
-  - notebook
